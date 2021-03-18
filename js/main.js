@@ -13,7 +13,8 @@
       }
   });
 
-  $(window).load(function () {
+
+$(window).load(function () {
     $(".overlay").click(function(){
        $(".popup_body").show();
     });
@@ -23,8 +24,8 @@
     $(".boton_cerrar").click(function(){
         $(".popup_body").hide();
     });
-});
-
+  });
 
 })(jQuery);
 
+ 

@@ -562,9 +562,6 @@ i.bi.bi-chevron-up:before{
   border: 2px solid #38B5AD;
   color:#fff;
 }
-#erasmus .img-erasmus:hover{
-  filter: drop-shadow(0 0 15px rgb(170, 170, 170));
-}
 
 /*--------------------------------------------------------------
 # Responsive
@@ -589,7 +586,6 @@ i.bi.bi-chevron-up:before{
   }
 }
 
-
 @media (min-width: 1024px) {
   #header #logo {
     padding-left: 60px;
@@ -602,7 +598,6 @@ i.bi.bi-chevron-up:before{
   #nav-menu-container {
     padding-right: 50px;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -627,11 +622,9 @@ i.bi.bi-chevron-up:before{
     margin-bottom: 10%;
     margin-right: 10%;
   }
-
   #proyecto-flex .card{
     margin-left: 0;
   }
-  
 }
 
 
@@ -1013,11 +1006,9 @@ text-align: justify;
   text-transform: uppercase;
 }
 
-
-/*--------------------------------------------------------------
-# PRUEBA OVERLAY
---------------------------------------------------------------*/
-
+/*------------------------------------------------
+CÓDIGO CSS - style.css
+------------------------------------------------*/
  .popup_body{
   background:rgba(0,0,0,.6);
   left:0;
@@ -1075,10 +1066,10 @@ text-align: justify;
   display: inline-block;
   font-weight: bold;
 }
-
 @media (max-width: 510px) {
   #erasmus .popup_body > div {
     width: 90%;
     font-size: 10pt;
   }
 }
+
