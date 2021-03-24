@@ -305,6 +305,10 @@ i.bi.bi-chevron-up:before{
   margin-bottom: 20px;
 } 
 
+#proyecto-flex .card-img-overlay{
+  height: 50%;
+}
+
 #proyecto-flex .card img {
   position: relative;
   max-width: 100%;
@@ -341,6 +345,23 @@ i.bi.bi-chevron-up:before{
   background-color: #38B5AD;
   color: #fff;
 }
+
+#proyecto-flex .card .btn-proyecto-en{
+  position: relative;
+  width: 40%;
+  left:calc(100% - 63%);;
+  padding: 4px 20px 4px 20px;
+  background-color: #fff;
+  border:1px solid #38B5AD;
+  color: #000 ;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#proyecto-flex .card .btn-proyecto-en:hover{
+  background-color: #38B5AD;
+  color: #fff;
+}
+
 
 #proyecto-flex .card-text {
   text-align: justify;
